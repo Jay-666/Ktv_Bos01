@@ -1,4 +1,4 @@
-<%@page import="com.mysql.jdbc.Connection" 
+ <%@page import="com.mysql.jdbc.Connection" 
 		import="java.util.List" 
 		import="java.util.ArrayList"
  		import="bean.Room"
@@ -17,7 +17,7 @@
 $(function(){
 	$("#tab td").click(function(){
 		tid=$(this).find("p").html();  
-		window.parent.showdata.location.href="http://127.0.0.1:8080/Ktv_Bos01/ShowData?id="+tid;
+		window.location.href="http://127.0.0.1:8080/Ktv_Bos01/ShowData?id="+tid;
 	});
 });
 </script>
@@ -25,7 +25,9 @@ $(function(){
 	#tab{
 			text-align: center;
 			border: 1px solid black;
-		}
+			margin-left:auto;
+			margin-right:auto;
+		} 
 		td{
 			border: 1px solid black;
 			width: 80px;

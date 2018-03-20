@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 <style>
 			body{
-				background-color: palevioletred;
+				
 				height: auto;
 				width: 1000;
 			}

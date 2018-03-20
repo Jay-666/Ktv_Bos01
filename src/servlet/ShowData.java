@@ -51,9 +51,7 @@ public class ShowData extends HttpServlet {
 			System.out.println(list.get(0).get("id"));
 			System.out.println(list.get(0).get("situation"));
 			request.getSession().setAttribute("list", list);
-			
 
-			
 			
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
